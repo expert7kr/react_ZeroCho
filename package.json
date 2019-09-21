@@ -1,0 +1,27 @@
+{
+  "name": "lecture",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/expert7kr/react_ZeroCho.git"
+  },
+  "author": "expert7kr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/expert7kr/react_ZeroCho/issues"
+  },
+  "homepage": "https://github.com/expert7kr/react_ZeroCho#readme",
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
+  }
+}
