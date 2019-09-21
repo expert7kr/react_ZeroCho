@@ -15,7 +15,7 @@
                 const GuGuDan = () => {
                     const [first, setFirst] = React.useState(Math.ceil(Math.random() * 9));
                     const [second, setSecond] = React.useState(Math.ceil(Math.random() * 9));
-                    const [value, setvalue] = React.useState(''); // 비구조화 할당 > 구조 분해 할당 : destructuring
+                    const [value, setValue] = React.useState(''); // 비구조화 할당 > 구조 분해 할당 : destructuring
                     const [result, setResult] = React.useState('');
                     const inputRef = React.useRef(null);
 
@@ -25,7 +25,7 @@
 
                     const onSubmitForm = (e) => {
                         e.preventDefault();
-                        if (parseInt(this.state.value) === this.state.first * this.state.second) {
+                        if (parseInt(value) === first * second) {
                             setResult('정답: ' + value);
                             setFirst(Math.ceil(Math.random() * 9));
                             setSecond(Math.ceil(Math.random() * 9));
