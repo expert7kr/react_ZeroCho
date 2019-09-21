@@ -13,7 +13,12 @@
             <div id="root"></div>
             <script type="text/babel">
                 const GuGuDan = () => {
-                    return <div>Hello, Hooks</div>
+                    const [first, setFirst] = React.useState(Math.ceil(Math.random() * 9));
+                    const [first, setSecond] = React.useState(Math.ceil(Math.random() * 9));
+                    const [value, setvalue] = React.useState('');
+                    const [result, setResult] = React.useState('');
+
+                    return <div>{first} {second} {value} {result}</div>
                 }
             </script>
             <script type="text/babel">
