@@ -18,7 +18,7 @@ module.exports = {
     entry: { // 여기가 제일 중요함.
         // app:['./client.jsx', './WordRelay.jsx'],
         //  그런데 ./client.jsx 에서 ./WordRelay.jsx 파일을 불러옴 > ./WordRelay.jsx 이것은 뺌
-        app:['./client.jsx'],
+        app:['./client'],
         //  확장자도 쓸필요 없음:엔트리가 많아지면 그때마다 다 적어주려면 js jsx css json, > resolve사용
 
         
